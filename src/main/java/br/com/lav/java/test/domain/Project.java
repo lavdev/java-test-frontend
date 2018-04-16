@@ -29,7 +29,7 @@ public class Project {
 	@JsonProperty("dateEnd")
 	private String dateEnd;
 	@JsonProperty("customer")
-	private Customer customer;
+	private String customer;
 	@JsonIgnore
 	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
@@ -84,12 +84,12 @@ public class Project {
 	}
 
 	@JsonProperty("customer")
-	public Customer getCustomer() {
+	public String getCustomer() {
 		return customer;
 	}
 
 	@JsonProperty("customer")
-	public void setCustomer(Customer customer) {
+	public void setCustomer(String customer) {
 		this.customer = customer;
 	}
 

@@ -2,9 +2,6 @@ package br.com.lav.java.test.service;
 
 import java.io.IOException;
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Set;
-import java.util.stream.Stream;
 
 import javax.ws.rs.core.Response;
 

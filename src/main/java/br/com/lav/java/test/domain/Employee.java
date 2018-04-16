@@ -34,7 +34,7 @@ public class Employee {
 	@JsonProperty("project")
 	private List<Project> project = null;
 	@JsonProperty("role")
-	private Role role;
+	private String role;
 	@JsonProperty("skill")
 	private List<Skill> skill = null;
 	@JsonProperty("certification")
@@ -103,12 +103,12 @@ public class Employee {
 	}
 
 	@JsonProperty("role")
-	public Role getRole() {
+	public String getRole() {
 		return role;
 	}
 
 	@JsonProperty("role")
-	public void setRole(Role role) {
+	public void setRole(String role) {
 		this.role = role;
 	}
 
