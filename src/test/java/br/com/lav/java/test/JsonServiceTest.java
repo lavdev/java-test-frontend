@@ -21,17 +21,20 @@ public class JsonServiceTest extends SpringBootTests {
 
     /***
      * Just test if the result set match the value passed by parameter
+     *
+     *
+     * * remove comment to run it
      */
-    @Test
-    public void getEmployeeList() {
-        try {
-            // create a list of employee based on selected Skill
-            List<Employee> employees =
-                    Arrays.asList(jsonService.getEmployeeList("gestao de pessoas"));
-            assertThat(employees, containsInAnyOrder(
-                    hasProperty("name", is("Marcelo Ricciarixxx"))));
-        } catch (AssertionError e) {
-            System.err.println(e.getLocalizedMessage());
-        }
-    }
+//    @Test
+//    public void getEmployeeList() {
+//        try {
+//            // create a list of employee based on selected Skill
+//            List<Employee> employees =
+//                    Arrays.asList(jsonService.getEmployeeList("gestao de pessoas"));
+//            assertThat(employees, containsInAnyOrder(
+//                    hasProperty("name", is("Marcelo Ricciarixxx"))));
+//        } catch (AssertionError e) {
+//            System.err.println(e.getLocalizedMessage());
+//        }
+//    }
 }
