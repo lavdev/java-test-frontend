@@ -29,7 +29,7 @@ public class JsonService implements Serializable {
 	// client setup
 	private static ResteasyClient client;
 	// consume setup
-    private static ResteasyWebTarget target;
+         private static ResteasyWebTarget target;
 
 	/**
 	 * Client setup
