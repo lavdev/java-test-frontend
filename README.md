@@ -1,5 +1,5 @@
 # java-test-frontend
-Front-end spring boot and Vaadin framework application
+Just developing a simple frontend using Vaadin framework and Spring boot application as test
 
 mvn clean install
 
